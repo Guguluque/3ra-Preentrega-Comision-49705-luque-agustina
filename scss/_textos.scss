@@ -1,0 +1,127 @@
+//textos//
+
+
+//Generales
+
+.titulo {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: $color-fuentes;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 40px;
+}
+
+.subTitulo {
+    font-size: 20px;
+    color: $color-fuentes;
+    text-align: left;
+    font-weight: bold;
+    font-family: "Tenor Sans", sans-serif;
+    margin-bottom: 10px;
+}
+
+.texto {
+    color: $color-fuente-sec;
+    margin-bottom: 30px;
+}
+
+
+
+//Pagina Home
+
+.tituloHome {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: $color-fuentes;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+
+//Pagina Conocenos
+
+.textoConocenos {
+    color: $color-fuente-sec;
+    margin-bottom: 5px;
+}
+
+
+
+//Pagina Merch
+
+.tituloMerch {
+    font-size: 40px;
+    color: $color-fuentes;
+    text-align: left;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: normal;
+}
+
+.textoMerch {
+    color: $color-fuente-sec;
+    margin-bottom: 30px;
+}
+
+.TituloBs {
+    font-size: 20px;
+    color: $color-fuentes;
+    text-align: left;
+    font-weight: normal;
+    font-family: "Tenor Sans", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 120px;
+}
+
+
+
+//Pagina Save the Date
+
+.middle {
+    text-align: center;
+}
+
+.textoPresupuesto {
+    font-size: 25px;
+    color: blanchedalmond;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.border {
+    margin: 110px;
+    margin-bottom: 30px;
+    padding: auto;
+    border-radius: 24px;
+    color: $color-btn-sec;
+    background-color: $color-btn;
+}
+
+
+//Pagina Servicios
+
+.contenedorColumna {
+    columns: 2;
+    margin-bottom: 80px;
+}
+
+.servicios {
+    margin-top: 80px;
+}
+
+.tituloServicio {
+    font-size: 40px;
+    color: antiquewhite;
+    text-align: center;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: normal;
+}

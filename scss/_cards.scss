@@ -1,0 +1,71 @@
+//cards//
+
+
+//Generales
+
+.contenedorCards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.cart {
+    width: 20px;
+}
+
+.tituloCard {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btnCard {
+    background-color: $color-btn;
+    color: $color-btn-sec;
+    font-weight: lighter;
+    border: 1px solid $color-btn-sec;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 3px 10px;
+    text-align: center;
+
+    &:hover {
+        background-color: rgb(224, 195, 151);
+        color: $color-btn;
+        font-weight: bold;
+    }
+}
+
+.imgMerchyServicio {
+    border-radius: 6px;
+    height: 100%;
+}
+
+.card-text {
+    font-size: 12px;
+    color: $color-fondo;
+}
+
+
+
+//Pagina Merch
+
+.imagen_card {
+    height: 425px;
+    overflow: hidden;
+}
+
+.card_product {
+    margin-bottom: 30px;
+}
+
+
+//Pagina Carrito
+.border2 {
+    margin: 80px;
+    margin-bottom: 30px;
+    padding: auto;
+    border-radius: 24px;
+    color: $color-btn-sec;
+    background-color: $color-btn;
+}

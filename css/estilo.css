@@ -1,0 +1,502 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Quintessential&family=Tenor+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "poppins";
+  background-color: rgb(1, 1, 29);
+}
+
+.header {
+  background-color: rgb(1, 1, 29);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+  border-bottom: 1px solid rgba(211, 189, 158, 0.644);
+}
+
+.logo {
+  cursor: pointer;
+}
+.logo img {
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+.logo img:hover {
+  transform: scale(1.2);
+}
+
+.header .nav-links {
+  list-style: none;
+}
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.header .nav-links li:hover {
+  transform: scale(1.1);
+}
+.header .nav-links a {
+  font-size: 700;
+  color: antiquewhite;
+  text-decoration: none;
+}
+.header .nav-links li a:hover {
+  color: rgba(207, 176, 133, 0.76);
+}
+
+.bag {
+  width: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn button {
+  margin-left: auto;
+  font-weight: 700;
+  background-color: rgb(1, 1, 29);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.btn button:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.titulo {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: antiquewhite;
+  text-align: center;
+  margin-bottom: 120px;
+  margin-top: 40px;
+}
+
+.subTitulo {
+  font-size: 20px;
+  color: antiquewhite;
+  text-align: left;
+  font-weight: bold;
+  font-family: "Tenor Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.texto {
+  color: rgba(255, 235, 205, 0.554);
+  margin-bottom: 30px;
+}
+
+.form {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tituloForm {
+  color: antiquewhite;
+  margin-top: 30px;
+}
+
+.tituloForm2 {
+  color: rgba(255, 235, 205, 0.554);
+  font-weight: lighter;
+}
+
+.align{
+  columns: 2;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.btnForm {
+  background-color: burlywood;
+  color: rgb(85, 50, 3);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.btnForm:hover {
+  background-color: rgb(200, 146, 76);
+}
+
+.footer{
+  border-top: 1px solid rgba(148, 132, 110, 0.644);
+  color: antiquewhite;
+  margin-top: 70px;
+}
+
+.footer .grupo-1 {
+width: 100%;
+max-width: 1200px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+padding: 45px 0px;
+}
+
+.footer .grupo-1  .box figure{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .grupo-1  .box figure img{
+  width: 120px;
+}
+
+.footer .grupo-1  .box p{
+  color: antiquewhite;
+  margin-top: 25px;
+  font-size: 11px;
+}
+
+.footer .grupo-1  .redSocial a img{
+  display: inline-block;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  background-color: rgb(1, 1, 29);
+  text-align: center;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.footer .grupo-1  .redSocial a:hover{
+  color: rgb(200, 146, 76);
+}
+
+.footer .grupo-2{
+  background-color: rgb(218, 189, 132);
+  padding: 10px 10px;
+  text-align: center;
+  color: rgb(1, 1, 29);
+}
+
+.footer .grupo-2 small{
+  font-size: 10px;
+}
+
+.contenedorCards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.cart {
+  width: 20px;
+}
+
+.tituloCard {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btnCard {
+  background-color: rgb(1, 1, 29);
+  color: bisque;
+  font-weight: lighter;
+  border: 1px solid bisque;
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 3px 10px;
+  text-align: center;
+}
+.btnCard:hover {
+  background-color: bisque;
+  color: rgb(1, 1, 29);
+  font-weight: bold;
+}
+
+.imgMerchyServicio {
+  border-radius: 6px;
+  height: 100%;
+}
+
+.card-text {
+  font-size: 12px;
+  color: rgb(1, 1, 29);
+}
+
+.size{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 50px;
+  padding: auto;
+}
+
+.border2 {
+  margin: 80px;
+  margin-bottom: 30px;
+  padding: auto;
+  border-radius: 24px;
+  color: bisque;
+  background-color: rgb(1, 1, 19);
+}
+
+.btn {
+  text-decoration: none;
+  color: bisque;
+  font-weight: normal;
+}
+.btn:hover {
+  color: rgb(1, 1, 19);
+  font-weight: bold;
+}
+
+.btnHover {
+  background-color: rgb(1, 1, 29);
+  color: bisque;
+  font-weight: lighter;
+  border: 2px solid blanchedalmond;
+  border-radius: 30px;
+  text-align: center;
+  margin: 10px;
+  padding: auto;
+  display: center;
+}
+.btnHover:hover {
+  background-color: rgb(207, 179, 136);
+  color: rgb(1, 1, 29);
+  font-weight: normal;
+}
+
+.contenedorColumna {
+  columns: 2;
+  margin-bottom: 80px;
+}
+
+.servicios {
+  margin-top: 80px;
+}
+
+.tituloServicio {
+  font-size: 40px;
+  color: antiquewhite;
+  text-align: center;
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: normal;
+}
+
+.middle {
+  text-align: center;
+}
+
+.subTituloNormal {
+  font-size: 25px;
+  color: antiquewhite;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.videoConocenos {
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+
+.border {
+  margin: 110px;
+  margin-bottom: 30px;
+  padding: auto;
+  border-radius: 24px;
+  color: bisque;
+  background-color: rgb(1, 1, 19);
+}
+
+.textoPresupuesto {
+  font-size: 25px;
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tituloMerch {
+  font-size: 40px;
+  color: antiquewhite;
+  text-align: left;
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: normal;
+}
+
+.textoMerch {
+  color: rgba(255, 235, 205, 0.554);
+  margin-bottom: 30px;
+}
+
+.TituloBs {
+  font-size: 20px;
+  color: antiquewhite;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Tenor Sans", sans-serif;
+  margin-bottom: 10px;
+  margin-top: 120px;
+}
+
+.imagen_card {
+  height: 425px;
+  overflow: hidden;
+}
+
+.card_product {
+  margin-bottom: 30px;
+}
+
+.tituloHome {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: antiquewhite;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.imgHome {
+  height: 500px;
+}
+
+.margin {
+  margin-bottom: 50px;
+}
+
+.btnHome {
+  margin-left: 20px;
+  margin-top: 60px;
+  background-color: rgb(1, 1, 29);
+  color: bisque;
+  font-weight: lighter;
+  border: 2px solid blanchedalmond;
+  border-radius: 30px;
+  text-align: center;
+  padding: auto;
+  display: center;
+}
+.btnHome:hover {
+  background-color: rgb(207, 179, 136);
+  color: rgb(1, 1, 29);
+  font-weight: normal;
+}
+
+.textoConocenos {
+  color: rgba(255, 235, 205, 0.554);
+  margin-bottom: 5px;
+}
+
+.BtnStd {
+  background-color: rgb(1, 1, 29);
+  color: bisque;
+  font-weight: lighter;
+  border: 2px solid blanchedalmond;
+  border-radius: 30px;
+  text-align: center;
+  margin: 5px;
+  padding: auto;
+  display: center;
+}
+.BtnStd:hover {
+  background-color: rgb(207, 179, 136);
+  color: rgb(1, 1, 29);
+  font-weight: normal;
+}
+
+.VideoConocenos {
+  margin-bottom: 110px;
+}
+
+.marginExtreme {
+  margin-bottom: 100px;
+}
+
+.container {
+  width: 100%;
+}
+
+.hero-img,
+.img-hero2,
+.img-hero3 {
+  width: 100% !important;
+}
+
+.backToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(1, 1, 29);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+
+.backToTop span {
+  color: rgb(174, 143, 95);
+  font-size: 15px;
+  transition: 0.2s ease-out;
+}
+
+.backToTop:hover {
+  background-color: bisque;
+  color: bisque;
+}
+
+.backToTop:hover span {
+  transform: translateY(-4px);
+}
+
+/* tablet: 768px to 1023 */
+@media (min-width: 0px) and (max-width: 576px) {
+  .hero-img {
+    display: none;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .hero-img {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .hero-img-mobile {
+    display: none;
+  }
+}
+@media (max-width: 1023px) {
+  .header {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

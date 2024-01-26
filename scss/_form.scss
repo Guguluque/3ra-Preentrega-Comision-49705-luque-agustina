@@ -1,0 +1,42 @@
+//form//
+
+.form {
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tituloForm {
+    color: $color-fuentes;
+    margin-top: 30px;
+}
+
+.tituloForm2 {
+    color: $color-fuente-sec;
+    font-weight: lighter;
+}
+
+.align{
+    columns: 2;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.btnForm {
+    background-color: burlywood;
+    color: rgb(85, 50, 3);
+    border-radius: 10px;
+    border: none;
+    @include anclas;
+
+    &:hover {
+        background-color: rgb(200, 146, 76);
+    }
+}

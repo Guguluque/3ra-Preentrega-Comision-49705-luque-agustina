@@ -1,0 +1,65 @@
+//footer//
+
+.footer {
+    border-top: 1px solid rgba(148, 132, 110, 0.644);
+    color: b$color-fuentes;
+    margin-top: 70px;
+  
+    .grupo-1 {
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 45px 0px;
+  
+      .box {
+        figure {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          img {
+            width: 120px;
+          }
+        }
+  
+        p {
+          color: $color-fuentes;
+          margin-top: 25px;
+          font-size: 11px;
+        }
+      }
+  
+      .redSocial a {
+        img {
+          display: inline-block;
+          text-decoration: none;
+          width: 25px;
+          height: 25px;
+          line-height: 25px;
+          background-color: $color-fondo;
+          text-align: center;
+          margin-left: 20px;
+          @include anclas;
+        }
+  
+        &:hover {
+          color: rgb(200, 146, 76);
+        }
+      }
+    }
+  
+    .grupo-2 {
+      background-color: rgb(218, 189, 132);
+      padding: 10px 10px;
+      text-align: center;
+      color: $color-fondo;
+  
+      small {
+        font-size: 10px;
+      }
+    }
+  }
+  

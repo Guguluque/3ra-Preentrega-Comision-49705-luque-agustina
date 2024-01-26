@@ -1,0 +1,33 @@
+//pagina merch//
+
+.tituloMerch {
+    font-size: 40px;
+    color: $color-fuentes;
+    text-align: left;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: normal;
+}
+
+.textoMerch {
+    color: $color-fuente-sec;
+    margin-bottom: 30px;
+}
+
+.TituloBs {
+    font-size: 20px;
+    color: $color-fuentes;
+    text-align: left;
+    font-weight: normal;
+    font-family: "Tenor Sans", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 120px;
+}
+
+.imagen_card {
+    height: 425px;
+    overflow: hidden;
+}
+
+.card_product {
+    margin-bottom: 30px;
+}

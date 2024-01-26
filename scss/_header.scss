@@ -1,0 +1,65 @@
+//Header//
+
+.header {
+    background-color: $color-fondo;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    border-bottom: 1px solid rgba(211, 189, 158, 0.644);
+}
+
+.logo {
+    @include anclas;
+
+    img {
+        height: 70px;
+        width: auto;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.header .nav-links {
+    list-style: none;
+
+    li {
+        display: inline-block;
+        padding: 0 20px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    a {
+        font-size: 700;
+        color: rgba(255, 235, 205, 0.795);
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: rgba(207, 176, 133, 0.76);
+    }
+}
+
+.bag {
+    width: 20px;
+    @include anclas;
+}
+
+.btn button {
+    margin-left: auto;
+    font-weight: 700;
+    background-color: $color-fondo;
+    border: none;
+    border-radius: 50px;
+    @include anclas;
+
+    &:hover {
+        transform: scale(1.5, 1.5);
+    }
+}
